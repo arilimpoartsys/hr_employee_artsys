@@ -8,11 +8,11 @@
             <field name="model">hr.employee</field>
             <field name="inherit_id" ref="hr.view_employee_form"/>
             <field name="arch" type="xml">
-				<xpath expr="//field[@name='category_ids']" position="before">
-					<group>
+		<xpath expr="//field[@name='category_ids']" position="before">
+		    <group>
                         <field name="employee_number"/>
                     </group>
-				</xpath>
+		</xpath>
              </field>
         </record>
         <record id="hr_employee_number_tree" model="ir.ui.view">
@@ -20,9 +20,9 @@
             <field name="model">hr.employee</field>
             <field name="inherit_id" ref="hr.view_employee_tree"/>
             <field name="arch" type="xml">
-				<xpath expr="//field[@name='name']" position="after">
+		<xpath expr="//field[@name='name']" position="after">
                     <field name="employee_number"/>
-				</xpath>
+		</xpath>
              </field>
         </record>
         <record id="hr_employee_number_filter" model="ir.ui.view">
@@ -30,9 +30,9 @@
             <field name="model">hr.employee</field>
             <field name="inherit_id" ref="hr.view_employee_filter"/>
             <field name="arch" type="xml">
-				<xpath expr="//field[@name='name']" position="after">
+		<xpath expr="//field[@name='name']" position="after">
                     <field name="employee_number"/>
-				</xpath>
+		</xpath>
              </field>
         </record>
 
