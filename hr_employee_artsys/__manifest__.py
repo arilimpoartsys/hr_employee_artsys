@@ -6,7 +6,7 @@
     'version': '1.0',
     'summary': 'Auto Genereate Employee Number for New Employees',
     'description': """
-          add a field for genereting new Employee Number for new empoyee.
+          add a field for genereting new Employee Number of new empoyee.
     """,
     'company': "PT. Artsys Integrasi Solusindo",
     'author': "PT. Artsys Integrasi Solusindo",
